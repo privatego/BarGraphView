@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:graph="http://schemas.android.com/apk/res/com.dragon.blog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_main_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_activity" />
+
+    <!--<com.dragon.blog.barview.BarGraphView-->
+        <!--android:id="@+id/bargraph"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#999999"-->
+
+        <!--graph:bar_margin="10dp"-->
+        <!--graph:bar_txt_color="#ffffff"-->
+        <!--graph:bar_width="20dp">-->
+
+
+    <!--</com.dragon.blog.barview.BarGraphView>-->
+    <RelativeLayout
+        android:id="@+id/rl_graph_container"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black_10p"
+        >
+
+    </RelativeLayout>
+
+</RelativeLayout>

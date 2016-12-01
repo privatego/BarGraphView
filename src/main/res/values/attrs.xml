@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BarGraphView">
+        <attr name="bar_width" format="dimension"/><!-- 柱子宽度 -->
+        <attr name="bar_margin" format="dimension"/><!-- 柱子间距 -->
+        <attr name="bar_txt_color" format="color"/><!-- 文字颜色 -->
+    </declare-styleable>
+    <declare-styleable name="BarYView">
+        <attr name="bary_txt_size" format="dimension"/><!--  -->
+        <attr name="bary_margin_left" format="dimension"/><!--  -->
+        <attr name="bary_margin_top" format="dimension"/><!--  -->
+        <attr name="bary_txt_color" format="color"/><!--  -->
+    </declare-styleable>
+
+    <declare-styleable name="BarXView">
+        <attr name="barx_txt_size" format="dimension"/><!--  -->
+        <attr name="barx_txt_color" format="color"/><!--  -->
+    </declare-styleable>
+
+</resources>
